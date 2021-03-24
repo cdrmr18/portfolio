@@ -1,0 +1,11 @@
+/* font-family: 'Capriola', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+h1,
+h2,
+h3 {
+  font-family: "Capriola", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
