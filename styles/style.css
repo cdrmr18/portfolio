@@ -46,7 +46,9 @@ p {
 .homepage-projects h2 {
   font-size: 64px;
 }
-
+.project-description {
+  padding: 120px 60px;
+}
 /* buttons & link styles */
 .btn-hero {
   border-radius: 4px;
