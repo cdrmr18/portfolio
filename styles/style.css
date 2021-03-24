@@ -17,9 +17,9 @@ body {
   font-family: var(--body-font-family);
 }
 p {
-  font-weight: normal;
-  line-height: 1.5;
-  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 /* homepage hero styles */
@@ -43,7 +43,7 @@ p {
   line-height: 2;
   color: #272142;
 }
-.homepage-project h2 {
+.homepage-projects h2 {
   font-size: 64px;
 }
 
@@ -69,4 +69,8 @@ p {
   text-decoration: none;
   font-family: var(--body-font-family);
   font-weight: 500;
+}
+/* image style */
+.img-bg-color {
+  background-color: var(--primary-color);
 }
