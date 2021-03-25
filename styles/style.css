@@ -22,7 +22,7 @@ footer {
   line-height: 30px;
   font-size: 18px;
 }
-/* homepage hero styles */
+/* homepage styles */
 .hero {
   text-align: center;
   background-color: var(--primary-color);
@@ -87,6 +87,12 @@ footer {
   text-decoration: none;
   font-weight: 400;
 }
+
+/* about page styles */
+.about-details {
+  font-size: 64px;
+}
+
 /* image style */
 .img-bg-color {
   background-color: var(--primary-color);
