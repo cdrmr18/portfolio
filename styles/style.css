@@ -16,12 +16,12 @@ h5 {
 body {
   font-family: var(--body-font-family);
 }
-p {
+p,
+footer {
   font-weight: 400;
   line-height: 30px;
   font-size: 18px;
 }
-
 /* homepage hero styles */
 .hero {
   text-align: center;
@@ -46,8 +46,19 @@ p {
 .homepage-projects h2 {
   font-size: 64px;
 }
+.fab {
+  color: var(--secondary-color);
+}
 .project-description {
   padding: 120px 60px;
+}
+.inquire {
+  background-color: var(--primary-color);
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 32px 60px;
+  border-radius: 20px;
 }
 /* buttons & link styles */
 .btn-hero {
@@ -71,6 +82,10 @@ p {
   text-decoration: none;
   font-family: var(--body-font-family);
   font-weight: 500;
+}
+.inquire a {
+  text-decoration: none;
+  font-weight: 400;
 }
 /* image style */
 .img-bg-color {
