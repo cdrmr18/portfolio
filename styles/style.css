@@ -87,23 +87,23 @@ footer {
   text-decoration: none;
   font-weight: 400;
 }
-.about-section a {
+.content a {
   text-decoration: none;
 }
 
 /* about page styles */
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section p {
+.content p {
   font-size: 18px;
   font-family: var(--heading-font-family);
 }
-.about-section {
+.content {
   padding: 160px 40px;
 }
-.about-content {
+.content-inner {
   padding: 160px 40px;
   margin: 30px;
 }
@@ -128,18 +128,18 @@ footer {
   .hero {
     padding: 80px 20px;
   }
-  .about-content {
+  .content-inner {
     text-align: center;
     padding: 0;
   }
-  .about-section {
+  .content {
     padding: 0;
   }
-  .about-section h1 {
+  .content h1 {
     font-size: 48px;
     line-height: 1.5;
   }
-  .about-section h2 {
+  .content h2 {
     font-size: 32px;
   }
 }
