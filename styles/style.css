@@ -50,7 +50,7 @@ footer {
   color: var(--secondary-color);
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 80px 20px;
 }
 .inquire {
   background-color: var(--primary-color);
@@ -104,8 +104,18 @@ footer {
   padding: 160px 40px;
 }
 .content-inner {
-  padding: 160px 40px;
+  padding: 80px 20px;
   margin: 30px;
+}
+
+/* projects page style */
+.content-inner h3 {
+  font-family: var(--body-font-family);
+  font-size: 24px;
+  line-height: 1;
+}
+.content-inner p {
+  font-size: 14px;
 }
 /* image style */
 .img-bg-color {
