@@ -87,20 +87,20 @@ footer {
   text-decoration: none;
   font-weight: 400;
 }
-.content a {
+.content-container a {
   text-decoration: none;
 }
 
 /* about page styles */
-.content h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.content p {
+.content-container p {
   font-size: 18px;
   font-family: var(--heading-font-family);
 }
-.content {
+.content-container {
   padding: 160px 40px;
 }
 .content-inner {
@@ -132,14 +132,14 @@ footer {
     text-align: center;
     padding: 0;
   }
-  .content {
+  .content-container {
     padding: 0;
   }
-  .content h1 {
+  .content-container h1 {
     font-size: 48px;
     line-height: 1.5;
   }
-  .content h2 {
+  .content-container h2 {
     font-size: 32px;
   }
 }
