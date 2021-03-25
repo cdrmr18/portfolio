@@ -54,7 +54,7 @@ footer {
 }
 .inquire {
   background-color: var(--primary-color);
-  width: 80%;
+  width: 70%;
   height: auto;
   margin: 0 auto;
   padding: 32px 60px;
@@ -107,5 +107,13 @@ footer {
   }
   .hero {
     padding: 80px 20px;
+  }
+}
+@media (max-width: 576px) {
+  .inquire p {
+    margin-bottom: 32px;
+  }
+  .inquire {
+    padding: 40px 60px;
   }
 }
