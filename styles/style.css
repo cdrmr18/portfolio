@@ -87,12 +87,26 @@ footer {
   text-decoration: none;
   font-weight: 400;
 }
-
-/* about page styles */
-.about-details {
-  font-size: 64px;
+.about-section a {
+  text-decoration: none;
 }
 
+/* about page styles */
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section p {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+}
+.about-section {
+  padding: 160px 40px;
+}
+.about-content {
+  padding: 160px 40px;
+  margin: 30px;
+}
 /* image style */
 .img-bg-color {
   background-color: var(--primary-color);
