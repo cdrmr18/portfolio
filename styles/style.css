@@ -76,3 +76,11 @@ p {
 .img-bg-color {
   background-color: var(--primary-color);
 }
+
+/* media queries */
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
