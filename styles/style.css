@@ -5,6 +5,7 @@
   --secondary-color: #6a693f;
   --heading-font-family: "Handlee", cursive;
   --body-font-family: "Poppins", sans-serif;
+  --hero-text-nav-color: #272142;
 }
 h1,
 h2,
@@ -31,7 +32,7 @@ footer .email-link,
   text-align: center;
 }
 footer .email-link:hover,
-.email {
+.email:hover {
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 24px;
@@ -69,7 +70,7 @@ footer .inquire {
   font-weight: bold;
   font-size: 36px;
   margin: 0;
-  color: #272142;
+  color: var(--hero-text-nav-color);
 }
 .hero h1 {
   font-size: 96px;
@@ -78,7 +79,7 @@ footer .inquire {
   font-family: var(--body-font-family);
   font-size: 24px;
   line-height: 2;
-  color: #272142;
+  color: var(--hero-text-nav-color);
 }
 .homepage-projects h2 {
   font-size: 64px;
@@ -129,7 +130,7 @@ footer .inquire {
 }
 .content-container p {
   font-size: 18px;
-  font-family: var(--heading-font-family);
+  font-family: var(--body-font-family);
 }
 .content-inner {
   padding: 80px 20px;
@@ -137,16 +138,16 @@ footer .inquire {
 }
 .about-me {
   background-color: var(--primary-color);
-  opacity: 0.9;
+  border-radius: 4px;
 }
 /* projects page style */
 .content-inner h3 {
-  font-family: var(--body-font-family);
+  font-family: var(--heading-font-family);
   font-size: 24px;
   line-height: 1;
 }
 .content-inner p {
-  font-size: 24px;
+  font-size: 18px;
 }
 /* image style */
 .img-bg-color {
@@ -170,11 +171,11 @@ footer .inquire {
   font-weight: 500;
 }
 .navbar-brand {
-  border: 3px solid black;
+  border: 3px solid var(--hero-text-nav-color);
   padding: 16px;
 }
 .navbar-toggler {
-  border: 3px solid black !important;
+  border: 3px solid var(--hero-text-nav-color) !important;
   border-radius: 0 !important;
 }
 
