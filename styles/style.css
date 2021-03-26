@@ -135,7 +135,9 @@ footer .inquire {
   padding: 80px 20px;
   margin: 30px;
 }
-
+.about-me {
+  background-color: var(--primary-color);
+}
 /* projects page style */
 .content-inner h3 {
   font-family: var(--body-font-family);
