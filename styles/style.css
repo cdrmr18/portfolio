@@ -120,12 +120,9 @@ footer {
 }
 
 /* nav bar style */
-.navbar-lewagon {
+.navbar-style-spacing {
   justify-content: space-between;
   background: transparent;
-}
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
 }
 
 /* media queries */
