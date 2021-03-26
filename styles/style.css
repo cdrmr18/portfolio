@@ -120,9 +120,9 @@ footer {
 }
 
 /* nav bar style */
-.navbar-style-spacing {
-  justify-content: space-between;
-  background: transparent;
+.nav-item {
+  padding: 0 16px;
+  line-height: 14px;
 }
 .active a {
   color: var(--secondary-color) !important;
