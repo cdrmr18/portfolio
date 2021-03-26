@@ -35,13 +35,14 @@ footer .email-link:hover {
   font-size: 24px;
   text-align: center;
 }
-.inquire {
+footer .inquire {
   background-color: var(--primary-color);
-  width: 70%;
-  height: auto;
   margin: 0 auto;
-  padding: 32px 60px;
-  border-radius: 20px;
+  padding: 32px 120px;
+  border-radius: 16px;
+}
+.inquire h4 {
+  font-size: 48px;
 }
 footer .social-links a {
   margin: 0 20px;
@@ -54,6 +55,7 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 /* homepage styles */
 .hero {
@@ -163,7 +165,10 @@ footer .social-links a:hover {
   padding: 16px 24px;
 }
 /* media queries */
-@media (max-width: 990px) {
+@media (max-width: 992px) {
+  footer .inquire h4 {
+    font-size: 18px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
@@ -186,18 +191,21 @@ footer .social-links a:hover {
     padding: 0;
   }
   .content-container h1 {
-    font-size: 48px;
+    font-size: 36px;
     line-height: 1.5;
   }
   .content-container h2 {
     font-size: 32px;
   }
+  footer .inquire {
+    padding: 32px 48px;
+  }
 }
 @media (max-width: 576px) {
-  .inquire p {
-    margin-bottom: 32px;
+  footer .inquire h4 {
+    font-size: 18px;
   }
-  .inquire {
-    padding: 40px 60px;
+  footer .inquire {
+    padding: 16px;
   }
 }
