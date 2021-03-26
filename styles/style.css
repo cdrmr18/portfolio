@@ -22,6 +22,39 @@ footer {
   line-height: 30px;
   font-size: 18px;
 }
+/* footer style */
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+  text-align: center;
+}
+.inquire {
+  background-color: var(--primary-color);
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding: 32px 60px;
+  border-radius: 20px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--secondary-color);
+}
 /* homepage styles */
 .hero {
   text-align: center;
@@ -46,20 +79,10 @@ footer {
 .homepage-projects h2 {
   font-size: 64px;
 }
-.fab {
-  color: var(--secondary-color);
-}
 .project-description {
   padding: 80px 20px;
 }
-.inquire {
-  background-color: var(--primary-color);
-  width: 70%;
-  height: auto;
-  margin: 0 auto;
-  padding: 32px 60px;
-  border-radius: 20px;
-}
+
 /* buttons & link styles */
 .btn-hero {
   border-radius: 4px;
