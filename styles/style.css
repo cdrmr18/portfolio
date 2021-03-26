@@ -124,6 +124,9 @@ footer {
   justify-content: space-between;
   background: transparent;
 }
+.active a {
+  color: var(--secondary-color) !important;
+}
 
 /* media queries */
 @media (max-width: 990px) {
