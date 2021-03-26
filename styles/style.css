@@ -23,13 +23,15 @@ footer {
   font-size: 18px;
 }
 /* footer style */
-footer .email-link {
+footer .email-link,
+.email {
   text-decoration: none;
   color: black;
   font-size: 24px;
   text-align: center;
 }
-footer .email-link:hover {
+footer .email-link:hover,
+.email {
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 24px;
@@ -108,9 +110,13 @@ footer .inquire {
   font-family: var(--body-font-family);
   font-weight: 500;
 }
-.inquire a {
+.inquire a,
+.git-link {
   text-decoration: none;
   font-weight: 400;
+}
+.git-link {
+  color: var(--secondary-color);
 }
 .content-container a {
   text-decoration: none;
@@ -161,9 +167,14 @@ footer .inquire {
   font-weight: 500;
 }
 .navbar-brand {
-  border: 4px solid black;
-  padding: 16px 24px;
+  border: 3px solid black;
+  padding: 16px;
 }
+.navbar-toggler {
+  border: 3px solid black !important;
+  border-radius: 0 !important;
+}
+
 /* media queries */
 @media (max-width: 992px) {
   footer .inquire h4 {
