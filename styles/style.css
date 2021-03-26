@@ -1,9 +1,9 @@
-/* font-family: 'Capriola', sans-serif;
-font-family: 'Poppins', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
 :root {
-  --primary-color: #e9fffb;
-  --secondary-color: #5651a4;
-  --heading-font-family: "Capriola", sans-serif;
+  --primary-color: #ccbec2;
+  --secondary-color: #6a693f;
+  --heading-font-family: "Handlee", cursive;
   --body-font-family: "Poppins", sans-serif;
 }
 h1,
@@ -156,7 +156,7 @@ footer .inquire {
   line-height: 14px;
 }
 .bg-navbar {
-  background: #e9fffb !important;
+  background: var(--primary-color) !important;
 }
 .active a {
   border-bottom: 4px solid black;
