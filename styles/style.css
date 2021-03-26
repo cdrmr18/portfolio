@@ -137,6 +137,7 @@ footer .inquire {
 }
 .about-me {
   background-color: var(--primary-color);
+  opacity: 0.9;
 }
 /* projects page style */
 .content-inner h3 {
@@ -145,7 +146,7 @@ footer .inquire {
   line-height: 1;
 }
 .content-inner p {
-  font-size: 18px;
+  font-size: 24px;
 }
 /* image style */
 .img-bg-color {
