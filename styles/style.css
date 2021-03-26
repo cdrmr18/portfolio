@@ -119,6 +119,15 @@ footer {
   background-color: var(--primary-color);
 }
 
+/* nav bar style */
+.navbar-lewagon {
+  justify-content: space-between;
+  background: transparent;
+}
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
 /* media queries */
 @media (max-width: 990px) {
   .project-description {
