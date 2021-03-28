@@ -127,6 +127,8 @@ footer .inquire {
 .content-container h1,
 .content-container h2 {
   font-size: 36px;
+  font-family: var(--body-font-family);
+  color: var(--hero-text-nav-color);
 }
 .content-container p {
   font-size: 18px;
@@ -135,10 +137,6 @@ footer .inquire {
 .content-inner {
   padding: 80px 20px;
   margin: 30px;
-}
-.about-me {
-  background-color: var(--primary-color);
-  border-radius: 4px;
 }
 /* projects page style */
 .content-inner h3 {
@@ -219,5 +217,13 @@ footer .inquire {
   }
   footer .inquire {
     padding: 16px;
+  }
+  .about-project-button {
+    display: block;
+    text-align: center;
+    margin: 0 48px;
+  }
+  .thank-you-text {
+    text-align: center;
   }
 }
